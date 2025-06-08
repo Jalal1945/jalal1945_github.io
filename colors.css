@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #272443;
+  box-shadow: 3px 0px 3px black;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.judul {
+  color: #B9E6E7;
+  margin: 10px;
+  font-size: 35px;
+}
+
+.menu ul {
+  display: flex;
+  margin-top: 20px;
+}
+
+.menu ul li {
+  margin-left: 20px;
+}
+
+.menu ul li:hover {
+  background-color: #B9E6E7;
+  border-radius: 3px;
+  width: 80px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu ul li a {
+  color: #B9E6E7;
+}
+
+.menu ul li a:hover {
+  color: #272442;
+  text-decoration: underline;
+}
+ 
+.artikel {
+  background-color: #E3F5F5;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 7px;
+  margin-bottom: 60px;
+  font-family: Arial;
+  font-size: 18px;
+  color: #272442;
+}
+
+.gambar img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.gambar h1 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.gambar {
+  float: right;
+  margin: 3px;
+}
+
+.copyright h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: grey;
+}
+
+.beranda {
+  box-shadow: 3px 2px 3px skyblue;
+  box-shadow: 3px -2px 3px skyblue;
+  margin: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.image img {
+  height: 200px;
+  margin: 0px 55px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.image h1 {
+  text-align: center;
+}
+
+.image p {
+  margin: 10px;
+}
+
+.kartu-pilihan img {
+  height: 125px;
+  border-radius: 10px;
+  margin: 10px;
+  float: left;
+  margin: 10px;
+}
+
+.kartu-pilihan p {
+  margin: 10px;
+}
+
+.kartu-pilihan button {
+  margin-left: 130px;
+  width: 125px;
+  height: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 2px 0px black;
+  color: black;
+  border: 1px solid black;
+}
+
+.kartu-pilihan button:hover {
+  width: 130px;
+  height: 26px;
+  box-shadow: none;
+  transition: all 0.1s ease-in-out;
+  border: none;
+}
+
+.pilihan4 button {
+  margin-bottom: 20px;
+}
+
+.section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trending {
+  background-color: #272442;
+  margin: 10px;
+  border-radius: 10px;
+  color: #E3F5F5;
+}
+
+.foto img {
+  width: 225px;
+  float: left;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.paragraf p {
+  padding: 10px;
+}
